@@ -1,5 +1,5 @@
 
-<h3 align="left"><samp><img align ='center' src='https://media2.giphy.com/media/UQDSBzfyiBKvgFcSTw/giphy.gif?cid=ecf05e47p3cd513axbek3f56ti3jzizq8hincw20jauyyfyw&rid=giphy.gif' width ='57' /> Hi there <img align ='center' src="https://raw.githubusercontent.com/mamad-1999/mamad-1999/master/wave.gif" width="30px" height="30px">  I’m Mohammad </samp></h3>
+<h3 align="left"><samp><img align ='center' src='https://media2.giphy.com/media/UQDSBzfyiBKvgFcSTw/giphy.gif?cid=ecf05e47p3cd513axbek3f56ti3jzizq8hincw20jauyyfyw&rid=giphy.gif' width ='57' /> Hi there <img align ='center' src="https://raw.githubusercontent.com/blackvoidx/blackvoidx/master/wave.gif" width="30px" height="30px">  I’m Mohammad </samp></h3>
 <h4 align="left">I am a Web programmer with a passion for Linux and web security. I enjoy building efficient applications, automating tasks, and exploring new technologies.</h4>
 
 ----
@@ -80,15 +80,15 @@
 </p>
 
 ---
-<img src="https://github.com/mamad-1999/mamad-1999/blob/main/assets/tryhackme-badge-high-quality.png" alt="visitor count" />
+<img src="https://github.com/blackvoidx/blackvoidx/blob/main/assets/tryhackme-badge-high-quality.png" alt="visitor count" />
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=mamad-1999&show_icons=true&theme=tokyonight)](https://github.com/MehdiKhoshnevisz/)&ensp;
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mamad-1999&theme=tokyonight&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=blackvoidx&show_icons=true&theme=tokyonight)](https://github.com/MehdiKhoshnevisz/)&ensp;
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=blackvoidx&theme=tokyonight&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 <div align="center">
   <samp>View Count</samp>
   <br />
-  <img src="https://profile-counter.glitch.me/{mamad-1999}/count.svg" alt="visitor count" />
+  <img src="https://profile-counter.glitch.me/{blackvoidx}/count.svg" alt="visitor count" />
 </div>
 <p align="center"> 
 &nbsp;<a href="mailto:www.mmhmdmm83@gmail.com">
