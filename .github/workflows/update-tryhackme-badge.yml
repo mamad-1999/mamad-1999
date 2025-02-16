@@ -1,0 +1,45 @@
+name: Update TryHackMe Badge
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      # Step 3: Install Puppeteer dependencies
+      - name: Install Puppeteer dependencies
+        run: sudo apt-get install -y libnss3 libxss1 fonts-liberation libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libgbm1 libnspr4 libxcomposite1 libxdamage1 libxrandr2 libxtst6 xdg-utils
+
+      # Step 4: Install Node.js dependencies
+      - name: Install Puppeteer
+        run: npm install puppeteer
+
+      # Step 5: Run Puppeteer script
+      - name: Generate TryHackMe badge
+        run: node generateBadge.js
+
+      # Step 6: Move the generated image to the assets folder
+      - name: Move badge to assets folder
+        run: mv tryhackme-badge-high-quality.png assets/tryhackme-badge-high-quality.png
+
+      # Step 7: Commit and push changes
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/tryhackme-badge-high-quality.png
+          git commit -m "Update TryHackMe badge"
+          git push
